@@ -4,7 +4,7 @@ Bem-vindo ao repositório central de documentação do time OWS.
 
 Esta documentação utiliza GitHub Pages e a ferramenta [MkDocs](https://www.mkdocs.org/) com o tema builtin ReadTheDocs.
 
-A página web da documentação é privada e acessível apenas para quem tem acesso a este repositório GitHub.
+A [página web da documentação](https://symmetrical-doodle-e4qkelp.pages.github.io/) é privada e acessível apenas para quem tem acesso a este repositório GitHub.
 
 ## Estrutura do repositório
 
