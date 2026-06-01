@@ -2,6 +2,7 @@ site_name: OWS Documentation Hub
 repo_url: https://github.com/OlosInternal/ows-dochub
 nav:
   - Home: index.md
+  - Teste: teste.md
 theme:
   name: readthedocs
   highlightjs: true
