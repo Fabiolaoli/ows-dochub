@@ -2,9 +2,46 @@ site_name: OWS Documentation Hub
 repo_url: https://github.com/OlosInternal/ows-dochub
 nav:
   - Home: index.md
-  - AD:
-    - Criação de Usuário: teste01.md 
-    - Modificação de Usuário: teste02.md
+  - Máquinas:
+    - Formatação do PC (Windows 11): maquinas/formatacao-windows-11.md
+    - Renomear o computador: maquinas/renomear-computador.md
+    - Instalação de softwares: maquinas/instalacao-softwares.md
+    - Notebook não espelha no monitor: maquinas/notebook-nao-espelha-monitor.md
+  - Active Directory:
+    - Instalação/Ativação do AD (RSAT): active-directory/instalar-rsat.md
+    - Criação de usuário: active-directory/criar-usuario.md
+    - Troca de senha: active-directory/trocar-senha.md
+    - Desbloqueio de usuário: active-directory/desbloquear-usuario.md
+    - Alteração de perfil: active-directory/alterar-perfil.md
+    - Desativação de usuário: active-directory/desativar-usuario.md
+    - Colocar usuário como ADMIN: active-directory/usuario-admin.md
+    - Liberação de acesso na pasta de redes: active-directory/liberar-acesso-pasta-rede.md
+  - Microsoft 365:
+    - Atribuir licença ao usuário: microsoft-365/atribuir-licenca.md
+    - Bloquear e-mail e/ou domínio: microsoft-365/bloquear-email-dominio.md
+    - Adicionar membro a chave de e-mail: microsoft-365/adicionar-membro-chave-email.md
+    - Remover membro de chave de e-mail: microsoft-365/remover-membro-chave-email.md
+    - Lista de distribuição: microsoft-365/lista-distribuicao.md
+    - Liberação de domínio Teams: microsoft-365/liberar-dominio-teams.md
+    - Criação de sala no Microsoft 365: microsoft-365/criar-sala-reuniao.md
+  - Segurança:
+    - Criptografia de máquina (BitLocker): seguranca/bitlocker-criptografia.md
+    - Desinstalação do Bitdefender: seguranca/desinstalar-bitdefender.md
+    - Tarefa de redução de risco do Bitdefender: seguranca/reducao-risco-bitdefender.md
+  - Redes:
+    - Máquina não reconhece as SSID (Windows): redes/reset-rede-windows.md
+    - Resolução de problemas de rede no Linux: redes/reset-rede-linux.md
+    - Configuração de rede no Linux via NMTUI: redes/configuracao-nmtui-linux.md
+    - Chamado de arquivo Host: redes/arquivo-host.md
+  - ORA:
+    - Sessão do ORA: ora/sessao-ora.md
+    - Coleta de gravações: ora/coleta-gravacoes.md
+  - VPN:
+    - Correção de falha na VPN e troca de senha: vpn/correcao-vpn-troca-senha.md
+  - Ferramentas:
+    - Work Monitor: ferramentas/work-monitor.md
+    - Configurar impressora (Brother): ferramentas/configurar-impressora-brother.md
+    - Liberar acesso ao OlosAI: ferramentas/liberar-acesso-olosai.md
 theme:
   name: readthedocs
   highlightjs: true
